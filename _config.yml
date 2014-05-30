@@ -1,0 +1,81 @@
+# Configuration
+base_url: http://lincolnanswers.org
+title: Lincoln Answers
+tagline: the open FAQ
+contact_email: team@opennebraska.io
+scm: https://github.com/natebenes/lincolnanswers
+
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Collections
+collections:
+  answers:
+    output: true
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+
+# Prose
+prose:
+  rooturl: _answers
+  media: media
+  metadata:
+    _answers:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "answer"
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "How do I license my pet?"
+          help: "Enter the question you are trying to answer here."
+      - name: "category"
+        field:
+          element: "select"
+          help: "Choose the one that is the most appropriate."
+          options:
+            - "Transportation"
+            - "Policy"
+            - "Public Works"
+            - "Police"
+            - "Test"
+      - name: "agency"
+        field:
+          element: "select"
+          help: "Choose the one that is the most appropriate."
+          options:
+            - "animal-control"
+            - "building-and-safety"
+            - "city-attorney"
+            - "finance"
+            - "fire"
+            - "health"
+            - "hr"
+            - "libraries"
+            - "parks"
+            - "planning"
+            - "police"
+            - "public-works"
+            - "urban-development"
+      - name: "author"
+        field:
+          element: "text"
+          placeholder: "John Doe"
+          help: "This field is optional, if you enter your name here it will be displayed publicly on the website."
+
+# Assets
+assets:
+  gzip: false
+  sources:
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/images
+    - _assets/fonts
+  compress:
+    css: sass
+    js: none

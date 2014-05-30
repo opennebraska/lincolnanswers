@@ -1,0 +1,6 @@
+---
+layout: none
+---
+{"answers":[
+{% for answer in site.collections['answers'].docs %}{% include answer.json %},{% endfor %}null
+]}

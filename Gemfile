@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'anemone'
+gem 'compass'
+gem 'bootstrap-sass'
+gem 'jekyll'
+gem 'jekyll-assets'
+gem 'rake'
+gem 'redcarpet'
+gem 'uglifier'
+gem 'therubyracer'
+gem 'sass'

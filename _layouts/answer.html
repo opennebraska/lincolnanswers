@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li><a href="/categories/{{ page.category | cgi_escape | downcase}}/">{{ page.category }}</a></li>
+  <li class="active">{{ page.title }}</li>
+</ol>
+
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<section id="answer-content">
+
+  <article class="answer {{ page.category }}">
+
+  <!-- begin rendered content -->
+  {{ content }}
+  <!-- end rendered content -->
+
+  </article>
+
+  <aside>
+    {% assign agency = site.data.agencies[page.agency] %}
+    {% include agency.html %}
+    {% if page.form_url %}
+    <p><a href="{{page.form_url}}"><button type="button" class="btn btn-primary btn-lg">Get started</button></a></p>
+    {% endif %}
+  </aside>
+
+</section>

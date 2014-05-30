@@ -1,0 +1,43 @@
+@import "settings";
+@import "bootstrap-variables";
+@import "bootstrap-modules";
+@import "typeahead";
+
+.wrapper {
+  @extend .container-fluid;
+}
+
+#main-header {
+  @extend .navbar;
+  @extend .navbar-default;
+  @extend .navbar-fixed-top;
+
+  ul {
+    @extend .nav;
+    @extend .navbar-nav;
+  }
+}
+
+#burger-menu {
+  @extend .navbar-toggle;
+}
+
+#site-title {
+  @extend .navbar-brand;
+}
+
+body {
+  padding-top: 70px;
+}
+
+#answer-content {
+  @extend .row;
+
+  article {
+    @extend .col-md-8;
+  }
+
+  aside {
+    @extend .col-md-4;
+  }
+}

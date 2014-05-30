@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<ol class="breadcrumb">
+  <li><a href="/">Home</a></li>
+  <li class="active"><a href="/categories.html">Categories</a></li>
+</ol>
+
+<div class="page-header">
+  <h1>{{ page.title }}</h1>
+</div>
+
+<article class="related">
+  <ul>
+    {% for category in page.categories %}
+      <li>
+        <h3>
+          <a href="/categories/{{ category | downcase | cgi_escape }}/">
+            {{ category }}
+          </a>
+        </h3>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

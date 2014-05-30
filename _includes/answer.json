@@ -1,0 +1,5 @@
+{
+  "id"    : "{{ answer.url }}",
+  "title"   : "{{ answer.title }}",
+  "content" : "{{ answer.output | strip_html | reduce_line_breaks | strip_newlines | remove:'"'  }}"
+}

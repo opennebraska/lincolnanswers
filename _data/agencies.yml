@@ -1,0 +1,65 @@
+animal-control:
+  name: Animal Control
+  url: http://lincoln.ne.gov/city/health/animal/
+  phone: (402) 441-4900
+  address: 3140 N St Lincoln, NE, 68510 USA
+building-and-safety:
+  name: Building and Safety
+  url: http://lincoln.ne.gov/city/build/index.htm
+  phone: (402) 441-7521
+  address: 555 S 10th St, Ste 203, Lincoln, NE, 68508 USA
+city-attorney:
+  name: City Attorney
+  url: http://lincoln.ne.gov/city/attorn/index.htm
+  phone: 
+  address: 555 S 10th St, Ste 300, Lincoln, NE, 68508 USA
+finance:
+  name: Finance Department
+  url: http://lincoln.ne.gov/city/finance/index.htm
+  phone: 
+  address: 555 S 10th St, Room 103, Lincoln, NE, 68508 USA
+fire:
+  name: Fire Department
+  url: http://lincoln.ne.gov/city/fire/index.htm
+  phone: (402) 441-7363
+  address: 1801 "Q" Street, Lincoln, NE 68508
+health:
+  name: Health Department
+  url: http://lincoln.ne.gov/city/health/index.htm
+  phone: (402) 441-8000
+  address: 3140 N St, Lincoln, NE 68510 USA
+hr:
+  name: Human Resources
+  url: http://lincoln.ne.gov/city/person/index.htm
+  phone: 
+  address: 555 South 10th, Room 302, Lincoln, NE 68508 USA
+libraries:
+  name: Lincoln City Libraries
+  url: http://www.lincolnlibraries.org/index.php
+  phone: (402) 441-8500
+  address: 136 South 14th Street, Lincoln, NE 68508 USA
+parks:
+  name: Lincoln Parks and Recreation
+  url: http://lincoln.ne.gov/city/parks/index.htm
+  phone: (402) 441-7847
+  address: 2740 A Street, Lincoln, NE 68502
+planning:
+  name: Planning Department
+  url: http://lincoln.ne.gov/city/plan/index.htm
+  phone: (402) 441-7491
+  address: 555 S 10th St, Ste 213, Lincoln, NE 68508 USA
+police:
+  name: Lincoln Police Department
+  url: http://lincoln.ne.gov/city/police/index.htm
+  phone: (402) 441-6000
+  address: 575 S. 10th Street, Lincoln, NE 68508
+public-works:
+  name: Public Works and Utilities Department
+  url: http://lincoln.ne.gov/city/pworks/index.htm
+  phone: (402) 441-7548
+  address: 555 S 10th St, Lincoln, NE 68508 USA
+urban-development:
+  name: Urban Development
+  url: http://lincoln.ne.gov/city/urban/index.htm
+  phone: (402) 441-7864
+  address: 555 S 10th St, Lincoln, NE 68508 USA

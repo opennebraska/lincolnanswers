@@ -1,0 +1,22 @@
+<div id="panel panel-default">
+  {% if agency %}
+  <div id="panel-heading">
+    <h3 id="panel-title">{{ agency.name }}</h3>
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr><td>Address</td><td><a href="https://maps.google.com/?q={{ agency.address | cgi_escape}}">{{ agency.address }}</a></td></tr>
+      <tr><td>Phone</td><td class="tel">{{ agency.phone }}</td></tr>
+      <tr><td>Website</td><td><a href="{{ agency.url}}">Open &rarr;</a></td></tr>
+    </table>
+  </div>
+  {% else %}
+  <div id="panel-heading">
+    <h3 id="panel-title">No agency information available</h3>
+  </div>
+  <div class="panel-body">
+    <p>More information coming soon.</p>
+  </div>
+
+  {% endif %}
+</div>
