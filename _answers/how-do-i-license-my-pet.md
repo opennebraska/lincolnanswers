@@ -3,7 +3,7 @@ layout: answer
 title: "How do I license my pet?"
 category: "How-to Guides"
 agency: "animal-control"
-form_url: "http://lincoln.ne.gov/city/health/animal/"
+form_url: ""
 published: true
 ---
 
