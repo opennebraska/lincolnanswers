@@ -1,10 +1,7 @@
 ---
 layout: answer
 title: "How do I license my pet?"
-category: 
-  - Test Articles
-  - "How-to Guides"
-author: John Doe
+category: "How-to Guides"
 agency: "animal-control"
 form_url: "http://lincoln.ne.gov/city/health/animal/"
 published: true
