@@ -1,7 +1,7 @@
 ---
 layout: answer
 published: true
-title: How many cats can I have
+title: "How many cats can I have?"
 category: "How-to Guides"
 agency: "animal-control"
 ---
