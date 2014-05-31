@@ -1,9 +1,9 @@
 ---
 layout: answer
 published: false
-title: "is-it-legal-for-bicycles-to-ride-on-the-street"
+title: Is it legal for bicycles to ride on the street?
 category: "How-to Guides"
-agency: "animal-control"
+agency: "city-attorney"
 ---
 
 ## Laws for cycling on the street
