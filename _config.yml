@@ -39,12 +39,9 @@ prose:
           element: "select"
           help: "Choose the one that is the most appropriate."
           options:
-            - "Transportation"
-            - "Policy"
-            - "Public Works"
-            - "Police"
-            - "Test"
-      - name: "agency"
+            - "How-to Guides"
+            - "Wher is it"
+            - "Quick Tips"
         field:
           element: "select"
           help: "Choose the one that is the most appropriate."
