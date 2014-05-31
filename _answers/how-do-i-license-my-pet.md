@@ -3,7 +3,7 @@ layout: answer
 title: "How do I license my pet?"
 category: "How-to Guides"
 agency: "animal-control"
-form_url: "http://lincoln.ne.gov/city/health/animal/"
+form_url: ""
 published: true
 ---
 
@@ -41,45 +41,3 @@ April 9, 1990: P.C. §8.71.040: Ord. 14955 §4; August 22, 1988).
 
 Roosters are not allowed and will be declared a public nuisance. This prohibition is not applicable to live roosters owned or harbored by a governmental entity or a person participating in a health surveillance conducted by a governmental entity, Humane Society, animal shelter, animal research facility, zoo, or to an animal hospital operated by veterinarians duly licensed under the laws of the
 State of Nebraska. (Ord. 18092 §58; November 18, 2002).
-
-
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex. "it's all in
-chapters 12--14"). Three dots ... will be converted to an ellipsis.
-
-
-
-An h2 header
-------------
-
-Here's a numbered list:
-
- 1. first item
- 2. second item
- 3. third item
-
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
